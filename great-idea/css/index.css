@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+
+	display: flex;
+	align-items: center;
+	margin: 20px 0px 20px 0px;
+	justify-content: space-around;
+
+}
+
+nav a { color: gray; text-decoration: none;}
+
+.header-text { font-size: 60px; }
+
+#get-started {
+
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+#header-container {
+
+	width: 95%;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 40px;
+	justify-content: center;
+	border-bottom: 1px solid black;
+
+}
+
+#header-subcontainer { margin-right: 200px; }
+
+.content-container {
+
+	width: 100%;
+	display: flex;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	justify-content: center;
+
+}
+
+.content-block-a { width: 47.5%; text-align: left; }
+
+.content-block-b { width: 33%; text-align: left; }
+
+#middle-img { width: 95%; margin: 0 auto; }
+
+/* Service Page */
+
+#services-wrapper {
+
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.services-container {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.services-content {
+
+	width: 30%;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	background: lightgray;
+	border: 1px solid black;
+	justify-content: space-between;
+
+}
+
+.learn-button {
+
+	margin-top: 20px;
+	width: fit-content;
+	border-radius: 5px;
+	background: white;
+	border: 1px solid black;
+	padding: 5px 20px 5px 20px;
+
+}
+
+#facts-container {
+
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+
+}
+
+#facts-container ul {
+
+	list-style-type: disc;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
